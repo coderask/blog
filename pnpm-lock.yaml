@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@cside.dev/next':
+        specifier: ^1.1.4
+        version: 1.1.4(next@15.5.14(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react@19.2.4)
       '@tailwindcss/postcss':
         specifier: 4.2.2
         version: 4.2.2
@@ -56,6 +59,12 @@ packages:
   '@alloc/quick-lru@5.2.0':
     resolution: {integrity: sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==}
     engines: {node: '>=10'}
+
+  '@cside.dev/next@1.1.4':
+    resolution: {integrity: sha512-bg3fvPB3/7zDJLMKKCUGWunJtUaCC+gNq/X/02X/s0O6k45LgShi3c49m/0vAwRKqPK2z1JAmELIhnDZ9Q3xIA==}
+    peerDependencies:
+      next: '>=11.0.0'
+      react: '>=16.0.0'
 
   '@emnapi/runtime@1.9.1':
     resolution: {integrity: sha512-VYi5+ZVLhpgK4hQ0TAjiQiZ6ol0oe4mBx7mVv7IflsiEp0OWoVsp/+f9Vc1hOhE0TtkORVrI1GvzyreqpgWtkA==}
@@ -648,6 +657,11 @@ packages:
 snapshots:
 
   '@alloc/quick-lru@5.2.0': {}
+
+  '@cside.dev/next@1.1.4(next@15.5.14(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react@19.2.4)':
+    dependencies:
+      next: 15.5.14(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+      react: 19.2.4
 
   '@emnapi/runtime@1.9.1':
     dependencies:

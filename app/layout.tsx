@@ -1,5 +1,6 @@
 import './global.css'
 import type { Metadata } from 'next'
+import { CSideScript } from '@cside.dev/next'
 import { GeistSans } from 'geist/font/sans'
 import { GeistMono } from 'geist/font/mono'
 import { Navbar } from './components/nav'
@@ -39,6 +40,7 @@ export default function RootLayout({
       )}
     >
       <body className="antialiased max-w-xl mx-4 mt-8 lg:mx-auto">
+        <CSideScript />
         <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
           <Navbar />
           {children}

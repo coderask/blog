@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@cside.dev/next": "^1.1.4",
     "@tailwindcss/postcss": "4.2.2",
     "@types/node": "22.19.15",
     "@types/react": "19.2.14",
